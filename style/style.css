@@ -1,0 +1,107 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(
+        90deg,
+        rgba(41, 54, 174, 1) 0%,
+        rgba(126, 99, 199, 1) 50%,
+        rgba(81, 154, 244, 1) 100%
+    );
+    margin: 20px;
+}
+.header {
+    color: white;
+    overflow: auto;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(0, 28, 255, 1) 100%
+    );
+    margin-bottom: 20px;
+}
+.portrait {
+    border-radius: 50%;
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.side {
+    width: 140px;
+    float: left;
+    background-color: rgb(2, 0, 36, 0.5);
+    height: 100vh;
+    text-align: center;
+}
+.summary {
+    font-size: 18px;
+}
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.main {
+    overflow: auto;
+    width: 50rem;
+    height: auto;
+}
+.publications {
+    border-radius: 8px;
+    overflow: auto;
+    margin: 20px 0 20px 10px;
+    background-color: blue;
+    width: 750px;
+}
+.publications-photo {
+    float: left;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+.publications-text {
+    float: center;
+    margin: 50px;
+
+    width: 500px;
+}
+.pub {
+    background-color: aqua;
+    float: right;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: #d6eeee;
+}
+tbody tr:nth-child(odd):hover {
+    background-color: rgb(175, 11, 11);
+}
+.profil {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+.button {
+    background: blueviolet;
+    width: 140px;
+    height: 20px;
+    margin: 0;
+    border-radius: 8px;
+    box-shadow: 1px 2px 1px black;
+}
+.button:hover {
+    box-shadow: 1px 1px 1px black;
+}
+.button-text {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+}
